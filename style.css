@@ -1,17 +1,46 @@
+.navbar{
+    width: 99%;
+    height: 150px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pro{
+    width: 50px;
+    height: 50px; 
+    margin-right: 30px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pro1{
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    background: whitesmoke;
+}
+.page{
+    display: flex;
+}
+
 .news{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;   
     background: beige;
     padding-left: 30px;
     padding-right: 30px;
-}
-.snippet{
-    display: flex;
-
+    width: 1200px;
 }
 
 .morebtn{
@@ -23,9 +52,10 @@
 
 .minews{
     display: flex;
+    
     justify-content: center;
     align-items: center;
-    width:100%;
+
 }
 .minews img{
     height: 200px;
@@ -35,18 +65,32 @@
 span{
     padding-top: 30px;
     display: none;
-    transition: 2s;
 }
 
-.addnews{
+
+.rightbar{
+    width: 1000px;
+    background: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.leftbar{
+    width: 1000px;
+    background: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addnew{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    background-color: bisque;
+}
+.addnew input{
+    height: 30px;
+    border-radius: 15px;
+    border: 0cap;
 }
