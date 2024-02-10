@@ -35,9 +35,7 @@ span{
     display: none;
     transition: 2s;
 }
-.minews p{
 
-}
 .addnews{
     display: flex;
     flex-direction: column;
