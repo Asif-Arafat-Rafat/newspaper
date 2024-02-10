@@ -1,4 +1,3 @@
-
 .news{
     display: flex;
     flex-direction: column;
@@ -6,6 +5,9 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;   
+    background: beige;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .snippet{
     display: flex;
